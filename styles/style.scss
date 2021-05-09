@@ -20,7 +20,6 @@ $grey-text: #2c2c2c;
 @import "./contact";
 @import "./footer";
 
-
 @media screen and (max-width: 1332px) {
   html {
     font-size: 53%;
@@ -77,7 +76,8 @@ $grey-text: #2c2c2c;
     margin-bottom: 2rem;
   }
   .travelly,
-  .photography {
+  .photography,
+  .color-palette {
     flex: 1 1 50rem;
     img {
       width: 100%;

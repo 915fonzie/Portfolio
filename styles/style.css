@@ -302,10 +302,16 @@ nav ul {
   margin: 5rem;
 }
 
-.travelly, .photography {
+.travelly,
+.photography,
+.color-palette {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+}
+
+.color-palette img {
+  border-radius: 3rem;
 }
 
 .form-section {
@@ -499,13 +505,15 @@ footer h4 {
     margin-bottom: 2rem;
   }
   .travelly,
-  .photography {
+  .photography,
+  .color-palette {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50rem;
             flex: 1 1 50rem;
   }
   .travelly img,
-  .photography img {
+  .photography img,
+  .color-palette img {
     width: 100%;
     height: 100%;
   }
