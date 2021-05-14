@@ -29,10 +29,10 @@ nav {
   h2 {
     font-size: 8rem;
     padding: 2rem;
-    background: $gradient;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
+    // background: $gradient;
+    // background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // display: inline-block;
   }
   h3 {
     font-size: 6rem;
@@ -84,9 +84,9 @@ nav {
 }
 
 #clock-arrow {
-    animation: clock 1.5s infinite linear;
-    transform-box: fill-box;
-    transform-origin: bottom;
+  animation: clock 1.5s infinite linear;
+  transform-box: fill-box;
+  transform-origin: bottom;
 }
 
 @keyframes me {
